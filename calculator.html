@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<body>
+  <div class="calculator">
+    <div class="memory-display"></div>
+    <div class="display"></div>
+
+    <div class="row">
+      <button class="backspace"><span class="material-icons">backspace</span></button>
+      <button class="clear">C</button>
+      <button class="mod operator" value="%"><span class="material-symbols-outlined">percent</span></button>
+      <button class="divide operator" value="/">/</button>
+    </div>
+
+    <div class="row">
+      <button class="number" value="7">7</button>
+      <button class="number" value="8">8</button>
+      <button class="number" value="9">9</button>
+      <button class="multiply operator" value="*"><span class="material-symbols-outlined">close</span></button>
+    </div>
+
+    <div class="row">
+      <button class="number" value="4">4</button>
+      <button class="number" value="5">5</button>
+      <button class="number" value="6">6</button>
+      <button class="subtract operator" value="-"><span class="material-symbols-outlined">remove</span></button>
+    </div>
+
+    <div class="row">
+      <button class="number" value="1">1</button>
+      <button class="number" value="2">2</button>
+      <button class="number" value="3">3</button>
+      <button class="add operator" value="+"><span class="material-symbols-outlined">add</span></button>
+    </div>
+
+    <div class="row">
+      <button class="sign" value="+/-">±</button>
+      <button class="number" value="0">0</button>
+      <button class="decimal">.</button>
+      <button class="equals" value="="><span class="material-symbols-outlined">equal</span></button>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
